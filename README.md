@@ -77,7 +77,7 @@ Evaluate a trained checkpoint without retraining:
 python main.py --model EPAADNet --dataset SMD --test
 ```
 
-Train on 20% of the data (as in the `--less` setting of the original TranAD harness):
+Train on 20% of the data:
 
 ```bash
 python main.py --model EPAADNet --dataset SMD --retrain --less
@@ -179,11 +179,26 @@ EPAAD-Net/
 If you use EPAAD-Net in your research, please cite:
 
 ```bibtex
-@article{epaadnet,
-  title   = {{EPAAD-Net: Efficient Periodicity-Aware Anomaly Detection Network}},
-  author  = {<TODO: authors>},
-  journal = {<TODO: venue>},
-  year    = {<TODO: year>}
+@article{li2026fast,
+  title={Fast time series anomaly detection using an efficient periodicity-aware neural network},
+  author={Li, Pengfei and Ruan, Yinghao and Liu, Peishun and Dong, Junyu and Dong, Xinghui},
+  journal={Neurocomputing},
+  pages={135312},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
+---
+
+## Acknowledgements
+
+This project includes code and experimental settings adapted from several open-source
+time-series anomaly detection repositories. In particular, portions of the training and
+evaluation harness are derived from TranAD (https://github.com/imperial-qore/TranAD),
+which is distributed under the BSD 3-Clause License. The core method of EPAAD-Net —
+including the Sine-Cosine Transform Module (SCTM), the Long-Term Dependency Modeling
+Block (LTDMB), and the Time-Series Attention Decoder Block (TSADB) — is an independent
+contribution.
+
+See the `LICENSE` file for the full BSD 3-Clause terms and original copyright notices.
 
