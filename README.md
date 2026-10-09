@@ -190,15 +190,9 @@ If you use EPAAD-Net in your research, please cite:
 ```
 ---
 
-## Acknowledgements
+## License
 
-This project includes code and experimental settings adapted from several open-source
-time-series anomaly detection repositories. In particular, portions of the training and
-evaluation harness are derived from TranAD (https://github.com/imperial-qore/TranAD),
-which is distributed under the BSD 3-Clause License. The core method of EPAAD-Net —
-including the Sine-Cosine Transform Module (SCTM), the Long-Term Dependency Modeling
-Block (LTDMB), and the Time-Series Attention Decoder Block (TSADB) — is an independent
-contribution.
-
-See the `LICENSE` file for the full BSD 3-Clause terms and original copyright notices.
+This project is released under the BSD 3-Clause License. See `LICENSE` for details.
+Some training/evaluation utilities are adapted from TranAD
+(https://github.com/imperial-qore/TranAD), also under BSD 3-Clause.
 
