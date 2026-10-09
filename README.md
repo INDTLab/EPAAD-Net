@@ -174,6 +174,16 @@ EPAAD-Net/
 
 ---
 
+## Acknowledgements
+
+Parts of the training and evaluation harness are adapted from TranAD
+(https://github.com/imperial-qore/TranAD), which is distributed under the
+BSD 3-Clause License. The core EPAAD-Net architecture (SCTM, LTDMB, TSADB)
+is an independent contribution. See `LICENSE` for full terms.
+
+
+---
+
 ## Citation
 
 If you use EPAAD-Net in your research, please cite:
