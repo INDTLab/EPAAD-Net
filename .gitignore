@@ -1,0 +1,53 @@
+# ============================================================
+#  EPAAD-Net — Efficient Periodicity-Aware Anomaly Detection Network
+# ============================================================
+
+# ---------- Raw datasets ----------
+# data/ holds the original datasets. Most are governed by their own
+# licenses and must NOT be redistributed. See "Datasets" in README.md
+# for where to obtain each one.
+data/
+
+# ---------- Preprocessed splits ----------
+# Regenerate with:  python preprocess.py <DATASET>
+processed/
+
+# ---------- Model checkpoints / weights ----------
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# ---------- Generated figures and experiment outputs ----------
+plots/
+*.npy
+*.xlsx
+# ...except the small ablation tables that back the plotting scripts
+!docs/*.xlsx
+results/*.pdf
+results/*.png
+results/*.PNG
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+
+# ---------- IDE / editors ----------
+.idea/
+.vscode/
+*.swp
+
+# ---------- OS cruft ----------
+Thumbs.db
+Desktop.ini
+.DS_Store

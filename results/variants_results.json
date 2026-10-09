@@ -1,0 +1,67 @@
+{
+  "SMD": {
+    "Full": {
+      "params": 29566,
+      "param_mem_kb": 115.49,
+      "flops_m": 0.58,
+      "latency_ms": 3.7658,
+      "latency_us_per_sample": 29.42
+    },
+    "w/o Conv1d": {
+      "params": 12010,
+      "param_mem_kb": 46.91,
+      "flops_m": 0.23,
+      "latency_ms": 1.9737,
+      "latency_us_per_sample": 15.42
+    },
+    "w/o SCTM": {
+      "params": 26678,
+      "param_mem_kb": 104.21,
+      "flops_m": 0.52,
+      "latency_ms": 3.3314,
+      "latency_us_per_sample": 26.03
+    },
+    "w/o DM": {
+      "params": 27642,
+      "param_mem_kb": 107.98,
+      "flops_m": 0.54,
+      "latency_ms": 3.2679,
+      "latency_us_per_sample": 25.53
+    },
+    "w/o Sin": {
+      "params": 28122,
+      "param_mem_kb": 109.85,
+      "flops_m": 0.55,
+      "latency_ms": 3.3727,
+      "latency_us_per_sample": 26.35
+    },
+    "w/o Cos": {
+      "params": 28122,
+      "param_mem_kb": 109.85,
+      "flops_m": 0.55,
+      "latency_ms": 3.3981,
+      "latency_us_per_sample": 26.55
+    },
+    "SED->Att": {
+      "params": 37494,
+      "param_mem_kb": 146.46,
+      "flops_m": 0.54,
+      "latency_ms": 3.6604,
+      "latency_us_per_sample": 28.6
+    },
+    "w/o TSADB": {
+      "params": 21714,
+      "param_mem_kb": 84.82,
+      "flops_m": 0.43,
+      "latency_ms": 2.698,
+      "latency_us_per_sample": 21.08
+    },
+    "w/o LTDMB": {
+      "params": 12010,
+      "param_mem_kb": 46.91,
+      "flops_m": 0.23,
+      "latency_ms": 1.7586,
+      "latency_us_per_sample": 13.74
+    }
+  }
+}

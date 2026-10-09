@@ -1,0 +1,28 @@
+# ---- Core ----
+torch>=1.13
+numpy>=1.21
+pandas>=1.3
+scikit-learn>=1.0
+scipy>=1.7
+tqdm>=4.62
+
+# ---- Plotting ----
+matplotlib>=3.5
+SciencePlots>=1.0.1
+Pillow>=9.0
+
+# ---- Spreadsheet datasets (MBA, XR*.xlsx) ----
+openpyxl>=3.0
+
+# ---- Profiling (scripts/profile_*.py) ----
+thop>=0.1.1
+torchsummary>=1.5.1
+
+# ---- Optional ----
+# Only needed for the GDN / MTAD-GAT baselines. Everything else,
+# including EPAAD-Net, runs without it.
+# dgl>=0.9
+#
+# Only used for optional TensorBoard logging in src/sctm.py;
+# guarded by try/except.
+# tensorboardX>=2.5

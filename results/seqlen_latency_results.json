@@ -1,0 +1,292 @@
+{
+  "SMD": {
+    "Full": {
+      "10": {
+        "latency_ms": 3.9006,
+        "latency_us_per_sample": 30.47,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 5.1441,
+        "latency_us_per_sample": 40.19,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 10.366,
+        "latency_us_per_sample": 80.98,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 22.9609,
+        "latency_us_per_sample": 179.38,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 58.6466,
+        "latency_us_per_sample": 458.18,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 188.0429,
+        "latency_us_per_sample": 1469.08,
+        "gpu_mem_mb": 0
+      }
+    },
+    "w/o Conv1d": {
+      "10": {
+        "latency_ms": 1.6264,
+        "latency_us_per_sample": 12.71,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 1.9634,
+        "latency_us_per_sample": 15.34,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 3.7335,
+        "latency_us_per_sample": 29.17,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 10.138,
+        "latency_us_per_sample": 79.2,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 24.8949,
+        "latency_us_per_sample": 194.49,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 67.1181,
+        "latency_us_per_sample": 524.36,
+        "gpu_mem_mb": 0
+      }
+    },
+    "w/o SCTM": {
+      "10": {
+        "latency_ms": 3.3753,
+        "latency_us_per_sample": 26.37,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 4.3562,
+        "latency_us_per_sample": 34.03,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 8.1994,
+        "latency_us_per_sample": 64.06,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 19.1964,
+        "latency_us_per_sample": 149.97,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 48.769,
+        "latency_us_per_sample": 381.01,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 157.9442,
+        "latency_us_per_sample": 1233.94,
+        "gpu_mem_mb": 0
+      }
+    },
+    "w/o DM": {
+      "10": {
+        "latency_ms": 3.4969,
+        "latency_us_per_sample": 27.32,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 4.5317,
+        "latency_us_per_sample": 35.4,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 10.3426,
+        "latency_us_per_sample": 80.8,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 22.7998,
+        "latency_us_per_sample": 178.12,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 56.0944,
+        "latency_us_per_sample": 438.24,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 191.6725,
+        "latency_us_per_sample": 1497.44,
+        "gpu_mem_mb": 0
+      }
+    },
+    "w/o Sin": {
+      "10": {
+        "latency_ms": 3.4311,
+        "latency_us_per_sample": 26.81,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 4.6348,
+        "latency_us_per_sample": 36.21,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 9.6916,
+        "latency_us_per_sample": 75.72,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 21.0183,
+        "latency_us_per_sample": 164.21,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 51.6379,
+        "latency_us_per_sample": 403.42,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 167.9215,
+        "latency_us_per_sample": 1311.89,
+        "gpu_mem_mb": 0
+      }
+    },
+    "w/o Cos": {
+      "10": {
+        "latency_ms": 3.5961,
+        "latency_us_per_sample": 28.09,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 4.9924,
+        "latency_us_per_sample": 39.0,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 9.3495,
+        "latency_us_per_sample": 73.04,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 19.8962,
+        "latency_us_per_sample": 155.44,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 52.2595,
+        "latency_us_per_sample": 408.28,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 164.3531,
+        "latency_us_per_sample": 1284.01,
+        "gpu_mem_mb": 0
+      }
+    },
+    "SED->Att": {
+      "10": {
+        "latency_ms": 3.7226,
+        "latency_us_per_sample": 29.08,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 4.9402,
+        "latency_us_per_sample": 38.6,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 9.7556,
+        "latency_us_per_sample": 76.22,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 22.3363,
+        "latency_us_per_sample": 174.5,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 58.8762,
+        "latency_us_per_sample": 459.97,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 187.854,
+        "latency_us_per_sample": 1467.61,
+        "gpu_mem_mb": 0
+      }
+    },
+    "w/o TSADB": {
+      "10": {
+        "latency_ms": 2.4881,
+        "latency_us_per_sample": 19.44,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 2.9598,
+        "latency_us_per_sample": 23.12,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 7.2547,
+        "latency_us_per_sample": 56.68,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 16.97,
+        "latency_us_per_sample": 132.58,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 44.8655,
+        "latency_us_per_sample": 350.51,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 145.6999,
+        "latency_us_per_sample": 1138.28,
+        "gpu_mem_mb": 0
+      }
+    },
+    "w/o LTDMB": {
+      "10": {
+        "latency_ms": 1.7652,
+        "latency_us_per_sample": 13.79,
+        "gpu_mem_mb": 0
+      },
+      "20": {
+        "latency_ms": 2.1938,
+        "latency_us_per_sample": 17.14,
+        "gpu_mem_mb": 0
+      },
+      "50": {
+        "latency_ms": 3.5301,
+        "latency_us_per_sample": 27.58,
+        "gpu_mem_mb": 0
+      },
+      "100": {
+        "latency_ms": 9.7016,
+        "latency_us_per_sample": 75.79,
+        "gpu_mem_mb": 0
+      },
+      "200": {
+        "latency_ms": 24.7433,
+        "latency_us_per_sample": 193.31,
+        "gpu_mem_mb": 0
+      },
+      "500": {
+        "latency_ms": 69.6653,
+        "latency_us_per_sample": 544.26,
+        "gpu_mem_mb": 0
+      }
+    }
+  }
+}
