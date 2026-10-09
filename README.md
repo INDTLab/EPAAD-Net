@@ -187,29 +187,3 @@ If you use EPAAD-Net in your research, please cite:
 }
 ```
 
-## Acknowledgements
-
-This codebase builds on [**TranAD**](https://github.com/imperial-qore/TranAD)
-(Tuli et al., *VLDB 2022*), released under BSD-3-Clause. The training harness,
-`src/pot.py`, `src/spot.py`, `src/merlin.py`, `src/diagnosis.py` and several
-baseline implementations originate from that project. We thank the authors.
-
-If you use those components, please also cite:
-
-```bibtex
-@article{tuli2022tranad,
-  title   = {{TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data}},
-  author  = {Tuli, Shreshth and Casale, Giuliano and Jennings, Nicholas R},
-  journal = {Proceedings of VLDB},
-  volume  = {15},
-  number  = {6},
-  pages   = {1201-1214},
-  year    = {2022}
-}
-```
-
-## License
-
-BSD-3-Clause. This project is a derivative work of TranAD
-(Copyright (c) 2022, Shreshth Tuli); the original copyright notice is retained in
-[`LICENSE`](LICENSE).
